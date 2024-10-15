@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from lazypredict.Supervised import LazyClassifier, LazyRegressor
+# from lazypredict.Supervised import LazyClassifier, LazyRegressor
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder, MinMaxScaler, StandardScaler
 from sklearn.model_selection import train_test_split, StratifiedKFold, RandomizedSearchCV
