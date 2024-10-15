@@ -21,7 +21,7 @@ import IPython
 import plotly
 import plotly.graph_objs as go
 
-st.set_page_config(page_title="AutoDS Application", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="AutoML", page_icon="🤖", layout="wide")
 
 # Define a function to load your dataset
 @st.cache_data
@@ -52,7 +52,7 @@ if st.button("Return to AI Hub"):
     st.write(f'<a href="{aihub_url}" target="_blank">Click here to move back to AI Hub</a>', unsafe_allow_html=True)
     
 # App description
-st.title("AutoDS Application")
+st.title("AutoML: Accelerate Model Building and Optimization")
 st.write("This application allows you to perform various AutoDS tasks, including data cleaning, encoding, visualization, model selection, and more. You can upload your dataset and choose from a variety of machine learning tasks.")
 
 # Create Streamlit pages
