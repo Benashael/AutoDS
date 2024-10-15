@@ -1,10 +1,10 @@
 streamlit
 pandas
 numpy
-scikit-learn==1.0
+scikit-learn
 scipy
 shap
 matplotlib
 ipython
 plotly
-lazypredict
+lazypredict==0.2.12
